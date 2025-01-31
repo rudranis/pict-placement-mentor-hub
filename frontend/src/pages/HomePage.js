@@ -35,8 +35,7 @@ function HomePage() {
             PICT Placement Mentor Hub
           </h1>
           <p className="mt-4 text-lg md:text-xl max-w-3xl">
-            Your gateway to placement success with guidance from PICT alumni and
-            mentors.
+            Your gateway to placement success with guidance from PICT alumni and mentors.
           </p>
           <button
             onClick={handleExploreNowClick}
@@ -58,9 +57,7 @@ function HomePage() {
             <p>Connect with experienced mentors for personalized guidance.</p>
           </div>
           <div className="bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-gray-600 transition duration-300 ease-in-out">
-            <h3 className="text-xl font-semibold mb-2">
-              ❓ Interview Questions
-            </h3>
+            <h3 className="text-xl font-semibold mb-2">❓ Interview Questions</h3>
             <p>Access curated questions for your dream companies.</p>
           </div>
           <div className="bg-gray-700 p-6 rounded-lg shadow-lg hover:bg-gray-600 transition duration-300 ease-in-out">
@@ -80,11 +77,10 @@ function HomePage() {
           Start Your Journey Today
         </h2>
         <p className="mb-6 text-lg">
-          Take the first step towards placement success with guidance from
-          mentors and resources.
+          Take the first step towards placement success with guidance from mentors and resources.
         </p>
         <button
-          onClick={handleGetStartedClick} // Navigate to Features page
+          onClick={handleGetStartedClick}
           className="px-8 py-3 bg-yellow-500 text-black font-semibold rounded-lg hover:bg-yellow-400 transition duration-300"
         >
           Get Started

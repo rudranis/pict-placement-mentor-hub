@@ -5,7 +5,9 @@ import HomePage from "./pages/HomePage";
 import FeaturesPage from "./pages/FeaturesPage";
 import MentorProfilePage from "./pages/MentorProfilePage";
 import SuccessStoriesPage from "./pages/SuccessStoriesPage";
-import SignUpSuccess from "./pages/SignUpSuccess"; // Import the new component
+import SignUpSuccess from "./pages/SignUpSuccess";
+import InterviewQuestions from './pages/InterviewQuestions';
+import PlacementAlerts from './pages/PlacementAlerts';
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/success-stories" element={<SuccessStoriesPage />} />
-        <Route path="/sign-up-success" element={<SignUpSuccess />} />{" "}
-        {/* New route */}
+        <Route path="/sign-up-success" element={<SignUpSuccess />} /> 
+        <Route path="/interview-questions" element={<InterviewQuestions />} />
+        <Route path="/placement-alerts" element={<PlacementAlerts />} />
         <Route
           path="/features/mentor-profile/:mentorId"
           element={<MentorProfilePage />}
